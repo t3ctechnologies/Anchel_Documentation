@@ -1,0 +1,14 @@
+1. OpenSSL is available 
+	$ git clone git://git.openssl.org/openssl.git
+
+2. Command to generate a private key
+	$ openssl genrsa 2048 > private-key.pem
+
+3. Command to generated CSR based on the private key
+	$ openssl req -new -key private-key.pem -out csr.pem
+	
+4. Get certified by CA (COMODO) free for 90 Days
+	follow this url https://ssl.comodo.com/free-ssl-certificate.php
+
+5. 
+	
