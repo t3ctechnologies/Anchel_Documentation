@@ -32,7 +32,7 @@ Docker in Ubuntu
 	$ sudo docker version
 	
 	output:
-	sould show client and server details
+	should show client and server details
 	
 Docker-compose in Ubuntu
 1. Download the latest version of Docker Compose
